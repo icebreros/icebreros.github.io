@@ -1,0 +1,78 @@
+/* Apply background color to the body */
+body {
+  background-color: navy;
+  color: white;
+}
+
+a:link {
+  color: white;
+}
+
+/* Style the header */
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: skyblue;
+  color: white;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+header nav li {
+  margin: 0 10px;
+}
+
+header nav li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Style the main content */
+main {
+  padding: 20px;
+  /* color: white; */
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+section h2 {
+  margin-top: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+  color: white;
+}
+
+ul li a {
+  /* color: skyblue; */
+  text-decoration: none;
+}
+
+/* Style the footer */
+footer {
+  padding: 10px;
+  text-align: center;
+  color: white;
+  background-color: skyblue;
+}
